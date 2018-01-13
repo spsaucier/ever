@@ -1,0 +1,39 @@
+.gallery {
+  margin: 0 -8px 1em;
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+  &.columns-3 {
+    .gallery-item {
+      width: 100% / 3;
+    }
+  }
+}
+
+.gallery-item {
+  float: left;
+  margin-bottom: 10px;
+  .gallery-icon {
+    a {
+      display: block;
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+        vertical-align: top;
+        border: 8px solid #fff;
+      }
+    }
+  }
+}
+.first-item {
+  clear: both;
+}
+/* remove margin bottom on last row */
+.last-row, .last-row ~ .item {
+  margin-bottom: 0;
+}

@@ -1,0 +1,39 @@
+header.banner {
+	display: flex;
+	flex-grow: 1;
+	.container-fluid {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		justify-content: center;
+	}
+	a {
+		&:hover {
+			border: none;
+		}
+	}
+}
+.brand {
+	display: block;
+	text-indent: -100%;
+	overflow: hidden;
+	height: 74px;
+	margin-bottom: 40px;
+	background: url(../../assets/images/ever.png) no-repeat center bottom / 160px;
+}
+
+.menu-main-menu-container {
+	.nav {
+		text-align: center;
+		& > li > a {
+			padding: 6px;
+			font-weight: 300;
+			font-size: 16px;
+			text-transform: uppercase;
+			letter-spacing: .2em;
+			&:hover, &:focus {
+				background: #fafafa;
+			}
+		}
+	}
+}
