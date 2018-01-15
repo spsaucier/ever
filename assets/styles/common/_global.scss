@@ -11,7 +11,7 @@ body {
 			padding-top: 46px;
 		}
 	}
-	strong {
+	strong, b {
 		font-weight: 500;
 	}
 }
@@ -147,7 +147,7 @@ html.js {
     text-align: center;
 }
 .page-header {
-	border-bottom: 1px dotted #d5b194;
+	border-bottom: none;
 }
 .post-header {
 	h1 {
@@ -161,7 +161,7 @@ html.js {
 			display: inline-block;
 			font-weight: 300;
 			font-style: italic;
-			transform: translateX(-26%) scale(4.3) translateY(6%);
+			transform: translateX(-100%) scale(4.3) translateY(6%);
 			opacity: .2;
 			z-index: -1;
 		}
@@ -239,13 +239,12 @@ html.js {
 		}
 	}
 	.entry-title {
-		text-transform: uppercase;
-		letter-spacing: 0.15em;
+		font-size: 20px;
 		@media (min-width: $screen-lg) {
-			font-size: 20px;
+			font-size: 22px;
 		}
 		@media (min-width: $screen-xl) {
-			font-size: 24px;
+			font-size: 26px;
 		}
 	}
 	figure {
@@ -269,14 +268,33 @@ html.js {
 				text-shadow: 0 0 19px rgba(0,0,0,0.3);
 				line-height: 1.2;
 				font-size: 17px;
-	    		@media (min-width: $screen-lg) {
-	    			font-size: 20px;
-	    		}
+				@media (min-width: $screen-lg) {
+					font-size: 20px;
+				}
 				&:last-child {
 					margin: 0;
 				}
 			}
 		}
+	}
+}
+
+article.post,
+article.story {
+	.entry-content {
+		padding: 0 10%;
+		max-width: 1060px;
+		margin: 0 auto;
+	}
+}
+section#comments {
+	padding: 40px 10% 0;
+	margin: 60px auto;
+	border-top: 1px dotted #ccc;
+	h3#reply-title {
+		font-family: "Gibson";
+		font-weight: 300;
+		font-size: 19px;
 	}
 }
 

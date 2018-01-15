@@ -25,6 +25,6 @@
     }
   },
   "config": {
-    "devUrl": "http://ever.local"
+    "devUrl": "http://localhost:3000"
   }
 }
