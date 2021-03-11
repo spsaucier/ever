@@ -22,7 +22,7 @@ use Roots\Sage\Wrapper;
       <!-- Page Content -->
       <div id="page-content-wrapper">
         <a href="#menu-toggle" class="btn" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
-        <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+        <a class="brand" href="<?= esc_url(home_url('/')); ?>"><span>Ever</span></a>
         <div class="wrap container-fluid" role="document">
           <div class="content row">
             <main class="main" role="main">

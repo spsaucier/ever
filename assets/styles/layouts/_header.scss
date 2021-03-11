@@ -1,6 +1,7 @@
 header.banner {
 	display: flex;
 	flex-grow: 1;
+	background: $brand-primary;
 	.container-fluid {
 		display: flex;
 		flex-direction: column;
@@ -8,18 +9,29 @@ header.banner {
 		justify-content: center;
 	}
 	a {
-		&:hover {
+		&:hover, &:focus {
 			border: none;
 		}
 	}
 }
 .brand {
 	display: block;
-	text-indent: -100%;
-	overflow: hidden;
-	height: 74px;
 	margin-bottom: 40px;
-	background: url(../../assets/images/ever.png) no-repeat center bottom / 160px;
+	font-size: 34px;
+	text-align: center;
+	line-height: 1;
+	color: $brand-secondary;
+	text-transform: lowercase;
+	& > span {
+		font-size: 81px;
+		font-weight: 500;
+		font-family: 'Ogg';
+		letter-spacing: 0;
+	}
+	&:hover, &:focus {
+		color: #fff;
+		outline: none;
+	}
 }
 
 .menu-main-menu-container {
@@ -28,11 +40,13 @@ header.banner {
 		& > li > a {
 			padding: 6px;
 			font-weight: 300;
-			font-size: 16px;
-			text-transform: uppercase;
-			letter-spacing: .2em;
+			font-size: 18px;
+			letter-spacing: 0.03em;
+			font-family: $font-family-serif;
+			color: rgb(244,231,211);
 			&:hover, &:focus {
-				background: #fafafa;
+				color: #fff;
+				background: none;
 			}
 		}
 	}

@@ -1,0 +1,140 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4025621, 2021-03-10T19:37:12-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Recoleta-RegularDEMO by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/regular-demo/
+ * 
+ * Webfont: Recoleta-Black by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/black/
+ * 
+ * Webfont: RecoletaAlt-Black by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-black/
+ * 
+ * Webfont: Recoleta-Bold by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/bold/
+ * 
+ * Webfont: Recoleta-Medium by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/medium/
+ * 
+ * Webfont: RecoletaAlt-Bold by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-bold/
+ * 
+ * Webfont: RecoletaAlt-Medium by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-medium/
+ * 
+ * Webfont: Recoleta-Thin by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/thin/
+ * 
+ * Webfont: RecoletaAlt-Thin by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-thin/
+ * 
+ * Webfont: Recoleta-Light by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/light/
+ * 
+ * Webfont: Recoleta-Regular by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/regular/
+ * 
+ * Webfont: Recoleta-SemiBold by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/sem-ibold/
+ * 
+ * Webfont: RecoletaAlt-Light by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-light/
+ * 
+ * Webfont: RecoletaAlt-SemiBold by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-semi-bold/
+ * 
+ * Webfont: RecoletaAlt-Regular by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-regular/
+ * 
+ * 
+ * Webfonts copyright: Copyright &amp;#x00A9; 2018 by Jorge Cisterna. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3d6d15");
+  
+@font-face {
+  font-family: "Recoleta";
+  font-weight: 900;
+  src: url('fonts/RecoletaBlack/font.woff2') format('woff2'), url('fonts/RecoletaBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta";
+  font-weight: 700;
+  src: url('fonts/RecoletaBold/font.woff2') format('woff2'), url('fonts/RecoletaBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta";
+  font-weight: 500;
+  src: url('fonts/RecoletaMedium/font.woff2') format('woff2'), url('fonts/RecoletaMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta-RegularDEMO";
+  src: url('fonts/RecoletaRegularDEMO/font.woff2') format('woff2'), url('fonts/RecoletaRegularDEMO/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 900;
+  src: url('fonts/RecoletaAltBlack/font.woff2') format('woff2'), url('fonts/RecoletaAltBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 400;
+  src: url('fonts/RecoletaAltRegular/font.woff2') format('woff2'), url('fonts/RecoletaAltRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 600;
+  src: url('fonts/RecoletaAltSemiBold/font.woff2') format('woff2'), url('fonts/RecoletaAltSemiBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta";
+  font-weight: 400;
+  src: url('fonts/RecoletaRegular/font.woff2') format('woff2'), url('fonts/RecoletaRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 300;
+  src: url('fonts/RecoletaAltLight/font.woff2') format('woff2'), url('fonts/RecoletaAltLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta";
+  font-weight: 600;
+  src: url('fonts/RecoletaSemiBold/font.woff2') format('woff2'), url('fonts/RecoletaSemiBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta";
+  font-weight: 300;
+  src: url('fonts/RecoletaLight/font.woff2') format('woff2'), url('fonts/RecoletaLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta";
+  font-weight: 200;
+  src: url('fonts/RecoletaThin/font.woff2') format('woff2'), url('fonts/RecoletaThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 500;
+  src: url('fonts/RecoletaAltMedium/font.woff2') format('woff2'), url('fonts/RecoletaAltMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 200;
+  src: url('fonts/RecoletaAltThin/font.woff2') format('woff2'), url('fonts/RecoletaAltThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 700;
+  src: url('fonts/RecoletaAltBold/font.woff2') format('woff2'), url('fonts/RecoletaAltBold/font.woff') format('woff');
+}
+

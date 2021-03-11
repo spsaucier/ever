@@ -59,7 +59,8 @@ a:hover {
     left: 30px;
     top: 35px;
     .glyphicon {
-    	background-color: #fff;
+		background: none;
+		color: #fff;
     	padding: .5em .3em;
     	top: 0;
     	left: 0;
@@ -101,17 +102,27 @@ a:hover {
 	}
 }
 
-.menu-main-menu-container .nav>li.current-menu-item>a {
-	background: #fafafa;
-	color: #cc654f;
+.menu-main-menu-container .nav > li {
+	&.current-menu-item > a {
+		color: #fff;
+	}
+}
+
+a {
+	font-family: $font-family-serif;
+	font-weight: 300;
+	font-size: 1.05em;
+	transition: 200ms all ease-in;
 }
 
 .page-header {
 	text-align: center;
 }
+strong {
+	font-weight: 500;
+}
 
 h1, h2, h3, h4, h5, h6 {
-	line-height: 1.2;
 	u {
 		text-decoration: none;
 		border-bottom: 1px dotted #d5b194;
@@ -147,6 +158,7 @@ html.js {
     text-align: center;
 }
 .page-header {
+	text-align: center;
 	border-bottom: none;
 }
 .post-header {
@@ -180,7 +192,7 @@ html.js {
 	width: 100%;
 }
 .text-content .content {
-	padding: 3% 6%;
+	padding: 3% 3em;
 	header {
 		text-align: center;
 		h1 {

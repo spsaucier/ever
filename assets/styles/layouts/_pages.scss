@@ -9,14 +9,19 @@
 	#page-content-wrapper {
 		&> .brand {
 			position: absolute;
-			left: 15px;
+			right: 15px;
 			top: 15px;
 			z-index: 1;
-			width: 270px;
-			background-position: 73% center;
-			padding: 52px;
-			background-color: #fff;
-			background-size: 142px;
+			text-align: right;
+			background: none;
+			padding: 31px 0px;
+			color: #fff;
+			&:hover {
+				border: none;
+			}
+			& > span {
+				font-size: 60px;
+			}
 			@media (min-width: 1000px) {
 				display: none;
 			}
@@ -40,8 +45,7 @@
 			display: none;
 		}
 		h2 {
-			font-size: 44px;
-			text-align: center;
+			font-size: 45px;
 			margin: .8em 0;
 			@media (max-width: 439px) {
 				font-size: 30px;
@@ -49,7 +53,7 @@
 		}
 		h3 {
 			font-size: 28px;
-			color: #dd998a;
+			color: $brand-tertiary;
 			margin: 1.2em 0 .5em;
 		}
 		p {
@@ -70,8 +74,7 @@ body:not(.page-template-template-tall-image) {
 
 .home {
 	article .text-content .content {
-		max-width: 32em;
-		text-align: center;
+		max-width: 33em;
 	}
 }
 

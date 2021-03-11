@@ -10,17 +10,6 @@
     }
 }
 
-@include declare-font-face("Gibson-Light", "./fonts/Gibson-Light", 300);
-@include declare-font-face("Gibson-Regular", "./fonts/Gibson-Regular", 500);
-@include declare-font-face("Gibson-SemiBold", "./fonts/Gibson-SemiBold", 600);
-@include declare-font-face("Gibson-Bold", "./fonts/Gibson-Bold", 700);
-
-
-
-@font-face {
-    font-family: 'Playlist Script';
-    src: url('../fonts/playlist_script-webfont.woff2') format('woff2'),
-         url('../fonts/playlist_script-webfont.woff') format('font-woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import '../../fonts/basis-grotesque-pro/stylesheet';
+@import '../../fonts/recoleta/MyFontsWebfontsKit';
+@import '../../fonts/ogg/stylesheet';

@@ -25,12 +25,12 @@ $sidebar-sm-columns:    4;
 // $brand-quinary:         #f7caa0;
 // $brand-senary:          #f7f7d0;
 
-$brand-primary:         #5e5142;
-$brand-secondary:       #d5b194;
-$brand-tertiary:        #dd998a;
+$brand-primary:         #4c5a49;
+$brand-secondary:       rgb(244,231,211);
+$brand-tertiary:        #905335;
 $brand-quaternary:      #cfdbd3;
-$brand-quinary:         #9cafb7;
-$brand-senary:			#827D78;
+$brand-quinary:         rgb(76, 90, 73);
+$brand-senary:			#607077;
 
 // Menu sidebar
 $sidebar-width:			250px;
@@ -45,16 +45,17 @@ $screen-xl:             1400px;
 
 $grid-float-breakpoint: $sidebar-show-px;
 
-$font-family-sans-serif:"Gibson", Helvetica, Arial, sans-serif; 
-$font-family-serif:     "Playlist Script", "Eurotypo Bodoni", Eurotypo Bodoni, Bodoni, Garamond, serif;
+$font-family-sans-serif:"Basis Grotesque Pro", Helvetica, Arial, sans-serif; 
+$font-family-serif:     "Recoleta", "Eurotypo Bodoni", Eurotypo Bodoni, Bodoni, Garamond, serif;
+$font-family-fancy:     "Ogg", $font-family-serif;
 
 $headings-font-family:  $font-family-serif;
-$headings-font-weight:  500;
+$headings-font-weight:  400;
 
 $text-color:            $brand-senary;
-$font-size-base:        18px;
+$font-size-base:        20px;
 
-$headings-line-height:  0.8;
+$headings-line-height:  1.25;
 $headings-color:        $brand-quinary;
 
 
