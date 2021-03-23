@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Harmonia Sans";
+    src: url('fonts/HarmoniaSansProCyr-Black.otf') format('opentype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Harmonia Sans";
+    src: url('fonts/HarmoniaSansProCyr-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Harmonia Sans";
+    src: url('fonts/HarmoniaSansProCyr-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Harmonia Sans";
+    src: url('fonts/HarmoniaSansProCyr-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+    
+@font-face {
+    font-family: "Harmonia Sans";
+    src: url('fonts/HarmoniaSansProCyr-Italic.otf') format('opentype');
+    font-weight: italic;
+}
+    
+@font-face {
+    font-family: "Harmonia Sans";
+    src: url('fonts/HarmoniaSansProCyr-Light.otf') format('opentype');
+    font-weight: 300;
+}
+    
+@font-face {
+    font-family: "Harmonia Sans";
+    src: url('fonts/HarmoniaSansProCyr-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+    
+@font-face {
+    font-family: "Harmonia Sans";
+    src: url('fonts/HarmoniaSansProCyr-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+    
+@font-face {
+    font-family: "Harmonia Sans";
+    src: url('fonts/HarmoniaSansProCyr-SemiBd.otf') format('opentype');
+    font-weight: 600;
+}
+    
+@font-face {
+    font-family: "Harmonia Sans";
+    src: url('fonts/HarmoniaSansProCyr-SemiBdIt.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
