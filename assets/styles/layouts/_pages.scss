@@ -9,12 +9,12 @@
 	#page-content-wrapper {
 		&> .brand {
 			position: absolute;
-			right: 15px;
+			left: 107px;
 			top: 15px;
 			z-index: 1;
 			text-align: right;
 			background: none;
-			padding: 31px 0px;
+			padding: 17px 0;
 			color: #fff;
 			&:hover {
 				border: none;
